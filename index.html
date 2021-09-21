@@ -2,7 +2,7 @@
 <html>
 	<head>	
 		<meta charset="utf-8" />
-		<link rel="stylesheet" href="styles.css"/>
+		<link rel="stylesheet" href="css/styles.css"/>
 		<title>Reservia</title>
 		<script src="https://kit.fontawesome.com/32c57706d9.js" crossorigin="anonymous"></script>
 	</head>
@@ -37,32 +37,33 @@
 				</form>
 					</div>
 
-						<!--header filtres-->
+						<!--header filtres recherches-->
 
 				<div id="filtres">
 					<h2 class="filtre">Filtres </h2>
-					<div class="barreFiltres">
-					<div class="imageFiltre"><i class="fas fa-money-bill-wave"></i>
-				</div>
-				<div class="eco">
-					<span class="titre">Economique</span>		
-				</div>
-				</div>
+					<div class="eco">	
+						<div class="imageFiltre"><i class="fas fa-money-bill-wave"></i></div>
+						<span class="titre">Economique</span>		
+					</div>
  					<div class="barreFiltres">
-					 <div class="imageFiltre"><i class="fas fa-child"></i>
-					 </div>
+						<div class="famille">	 
+					 		<div class="imageFiltre"><i class="fas fa-child"></i></div>
 						<span class="titre">Familial</span>	
+						</div>
 					</div>
-						<div class="barreFiltres">
-							<div class="imageFiltre"><i class="fas fa-heart"></i>
-							</div>
-							<span class="titre">Romantique</span>
+					<div class="barreFiltres">
+						<div class="romantique">
+							<div class="imageFiltre"><i class="fas fa-heart"></i></div>
+								<span class="titre">Romantique</span>
+						</div>
 					</div>
-						<div class="barreFiltres">
-							<div class="imageFiltre"><i class="fas fa-dog"></i>
-							</div>
+					<div class="barreFiltres">
+						<div class="animaux">
+							<div class="imageFiltre"><i class="fas fa-dog"></i></div>
 							<span class="titre">Animaux autorisés</span>		
+						</div>
 					</div>
+				</div>			
 			</header>
 					<h3 class="logements_dispo"><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</h3>
 			
@@ -72,7 +73,7 @@
 				<div class="hebergementsListe">
 					<article>
 					
-						<img src="auberge_cannebiere.jpg" alt="photo hotel cannebiere"/>
+						<img src="img/auberge_cannebiere.jpg" alt="photo hotel cannebiere"/>
 						<div class="description">	
 							<h3>Auberge de la Cannebière</h3>
 							<p>Nuit à partir de <strong>25€</strong></p>
@@ -82,7 +83,7 @@
 						</div>
 				</article>
 				<article>
-					<img src="./hotel-du-port.jpg" alt="photo hotel du port"/>
+					<img src="img/hotel-du-port.jpg" alt="photo hotel du port"/>
 					<div class="description">
 						<h3>Hôtel du port</h3>
 							<p>Nuit à partir de 52<strong>€</strong></p>
@@ -93,7 +94,7 @@
 				</article>
 
 				<article>
-						<img src="./hotel-les-mouettes.jpg" alt="photo hotel les mouettes"/>
+						<img src="img/hotel-les-mouettes.jpg" alt="photo hotel les mouettes"/>
 						<div class="description">
 							<h3>Hôtel les mouettes</h3>
 							<p>Nuit à partir de 76<strong>€</strong></p>
@@ -103,7 +104,7 @@
 						</div>
 						</article>
 						<article>
-							<img src="./hoteldelamer.jpg" alt="photo hotel de la mer"/>
+							<img src="img/hoteldelamer.jpg" alt="photo hotel de la mer"/>
 							<div class="description">
 							<h3>Hôtel de la mer</h3>
 							<p>Nuit à partir de 46<strong>€</strong></p>
@@ -113,7 +114,7 @@
 							</div>
 						</article>
 						<article>
-							<img src="aubergelepanier.jpg" alt="photo auberge le panier"/>
+							<img src="img/aubergelepanier.jpg" alt="photo auberge le panier"/>
 							<div class="description">
 							<h3>Auberge le panier</h3>
 							<p>Nuit à partir de <strong>23€</strong></p>
@@ -134,14 +135,12 @@
 							
 						</article>
 							<h3>Afficher plus</h3>
-
-					</div>
+				</div>
 				</div>
 				<aside id="les-plus-populaires">
-					<div class="populaires_symbole">
-					<h2>Les plus populaires</h2>	
-					<i class="fas fa-chart-line"></i>
-					</div>
+				<div class="populaires_symbole">
+					<h2>Les plus populaires<i class="fas fa-chart-line"></i></h2>
+				</div>
 						<div class="liste-populaires">
 						<div class="desription_populaires">
 						<article>
@@ -188,10 +187,10 @@
 					<div class="activite activite1">
 							<div class="photo_activite1">
 								<img class="photoEntiere photo_activite01"
-									 src="./vieux_port.jpg" 
+									 src="img/vieux_port.jpg" 
 									 alt="photo du vieux port"/>
 							</div>
-							<div class="nom_activite1">
+							<div class="nom_activite">
 							<h3>Vieux Port</h3>
 						</div>
 					</a>
@@ -201,10 +200,10 @@
 					
 						<div class="photo_activite2">
 							<img class="photo_activite02"
-								 src="./pomegues.jpg"
+								 src="img/pomegues.jpg"
 								  alt="photo fort de Pomegues"/>
 							</div>
-							<div class="nom_activite2">
+							<div class="nom_activite">
 								  <h3>Fort de Pomègues</h3>
 							</div>
 						</a>
@@ -213,10 +212,10 @@
 						
 							<div class="photo_activite3">
 								<img class="photo1tier photo_activite03"
-								 src="./frioul.jpg"
+								 src="img/frioul.jpg"
 								  alt="photo îles du Frioul"/>
 							</div>
-							<div class="nom_activite3">
+							<div class="nom_activite">
 								<h3>Iles du Frioul</h3>
 							</div>
 						</a>
@@ -226,10 +225,10 @@
 						
 							<div class="photo_activite4">
 								<img class="photoEntiere photo_activite04"
-								 src="./calanques.jpg" 
+								 src="img/calanques.jpg" 
 								 alt="photo des calanques"/>
 							</div>
-					<div class="nom_activite4">
+					<div class="nom_activite">
 							<h3>Parc National des Calanques</h3>
 						</div>
 					</a>
@@ -239,10 +238,10 @@
 								
 									<div class="photo_activite5">
 										<img class="photo_activite05"
-											 src="./notre_dame.jpg"
+											 src="img/notre_dame.jpg"
 											  alt="photo de notre dame de la garde"/>
 										</div>
-										<div class="nom_activite5">
+										<div class="nom_activite">
 											<h3>Notre Dame-de-la-Garde</h3>
 							</div>
 						</a>
@@ -254,7 +253,7 @@
 								 src="./parc_longchamp.jpg" 
 								 alt="photo du parc longchamp"/>
 								</div>
-								<div class="nom_activite6">
+								<div class="nom_activite">
 									<h3>Parc Longchamp</h3>
 								</div>
 							</a>
