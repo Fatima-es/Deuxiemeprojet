@@ -643,3 +643,60 @@ article
 {
 	flex-direction: column;
 }
+@media screen and (max-width: 480px) {
+
+header
+{
+	margin-right: 0px;
+	width: auto;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+
+nav
+{
+	width:auto;
+	text-align: left;
+}
+
+nav ul
+{
+	flex-direction: column;
+
+}
+
+h1
+{
+	text-align: center;
+}
+button
+{
+	display: none;
+}
+#les-plus-populaires
+{
+	flex-direction: column;
+}
+
+#hebergements-marseille
+{
+	flex-direction: column;
+}
+
+h2 
+{
+	text-align: center;
+}
+
+#Activités_à_Marseille
+{
+	flex-direction: column;
+}
+ 
+footer
+{
+	flex-direction: column;
+}
+}
+
